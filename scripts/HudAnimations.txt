@@ -1,4 +1,4 @@
-//=================================================================================================================================
+//===========================================
 
 event HudSpyDisguiseChanged
 {
@@ -19,13 +19,69 @@ event HudSpyDisguiseHide
 event HudSpyDisguiseFadeIn
 {
     RunEvent HudSpyDisguiseChanged    0
-    Animate PlayerStatusSpyImage            Alpha        "255"            Linear 0.9 0.1    
+    Animate PlayerStatusSpyImage            Alpha        "255"            Linear 0.9 0.0   
 }
 
 event HudSpyDisguiseFadeOut
 {
     RunEvent HudSpyDisguiseChanged    0
-    Animate PlayerStatusSpyImage            Alpha        "0"                Linear 0.9 0.1    
+    Animate PlayerStatusSpyImage            Alpha        "0"                Linear 0.9 0.0
 }
 
-//=================================================================================================================================
+//===========================================
+
+event HudHealthBonusPulse
+{
+	Animate PlayerStatusHealthValue		FgColor 	"0 90 172 255" 		Linear 0.0 0.0
+
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse		0.0
+	StopEvent HudHealthBonusPulseLoop	0.0
+
+	Animate PlayerStatusHealthValue 	FgColor 	"101 194 77 255" 	Linear 0.0 0.0
+}
+
+//===========================================
+
+event HudHealthDyingPulse
+{
+	Animate PlayerStatusHealthValue		FgColor 	"221 33 82 255" 	Linear 0.0 0.0
+
+	RunEvent HudHealthDyingPulseLoop	0.4
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+
+	Animate PlayerStatusHealthValue 	FgColor 	"101 194 77 255" 	Linear 0.0 0.0
+}
+
+//===========================================
+
+event HudMedicCharged
+{
+	Animate ChargeMeter      					FgColor		"93 241 238 255"			Linear 	0.0	0.6
+	
+	Animate ChargeMeter     					FgColor		"221 232 253 255"			Linear 	0.6	0.6
+
+	RunEvent HudMedicChargedLoop    			1.2
+}
+
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 					0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 					0.0
+	StopEvent HudMedicChargedLoop 				0.0
+
+	Animate ChargeMeter      					FgColor		"93 241 238 255"        	Linear	0.0	0.0001
+}

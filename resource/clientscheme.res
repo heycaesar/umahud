@@ -3102,13 +3102,73 @@ Scheme
 			}
 		}
 		
-		ROMANS12
+		AtlanBold12
 		{
 			"1"
 			{
-				"name"		"ROMANS"
+				"name"		"Atlan Bold"
 				"tall"		"12"
 				"antialias" "1"
+			}
+		}
+		
+		AtlanBold18
+		{
+			"1"
+			{
+				"name"		"Atlan Bold"
+				"tall"		"18"
+				"antialias"	"1"
+			}
+		}
+		
+		AtlanBold24
+		{
+			"1"
+			{
+				"name"		"Atlan Bold"
+				"tall"		"24"
+				"antialias"	"1"
+			}
+		}
+		
+		AtlanBold36
+		{
+			"1"
+			{
+				"name"		"Atlan Bold"
+				"tall"		"36"
+				"antialias"	"1"
+			}
+		}
+		
+		AtlanBold48
+		{
+			"1"
+			{
+				"name"		"Atlan Bold"
+				"tall"		"48"
+				"antialias"	"1"
+			}
+		}
+		
+		AtlanBold60
+		{
+			"1"
+			{
+				"name"		"Atlan Bold"
+				"tall"		"60"
+				"antialias"	"1"
+			}
+		}
+		
+		AtlanBold72
+		{
+			"1"
+			{
+				"name"		"Atlan Bold"
+				"tall"		"72"
+				"antialias"	"1"
 			}
 		}
 	}
@@ -5940,8 +6000,8 @@ Scheme
 		}
 		"19"
 		{
-			"font" "resource/fonts/ROMANS.ttf"
-			"name" "ROMANS"
+			"font" "resource/fonts/AtlanBold.ttf"
+			"name" "Atlan Bold"
 		}
 	}
 }
