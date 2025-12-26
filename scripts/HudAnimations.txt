@@ -33,6 +33,7 @@ event HudSpyDisguiseFadeOut
 event HudHealthBonusPulse
 {
 	Animate PlayerStatusHealthValue		FgColor 	"0 90 172 255" 		Linear 0.0 0.0
+	Animate PlayerStatusHealthValueShadow	FgColor 	"1 44 102 255" 		Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -43,6 +44,8 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop	0.0
 
 	Animate PlayerStatusHealthValue 	FgColor 	"101 194 77 255" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueShadow	FgColor 	"78 138 33 255" 	Linear 0.0 0.0
+
 }
 
 //===========================================
@@ -50,6 +53,7 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate PlayerStatusHealthValue		FgColor 	"221 33 82 255" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueShadow	FgColor 	"109 0 32 255" 		Linear 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop	0.4
 }
@@ -60,7 +64,9 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthDyingPulseLoop 0.0
 
 	Animate PlayerStatusHealthValue 	FgColor 	"101 194 77 255" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueShadow	FgColor 	"78 138 33 255" 	Linear 0.0 0.0
 }
+
 
 //===========================================
 

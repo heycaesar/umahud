@@ -19,16 +19,16 @@
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"165"	[$WIN32]
-		"xpos_minmode"	"15"	[$WIN32]
+		"xpos_minmode"	"165"	[$WIN32]
 		"ypos"			"115"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
+		"ypos_minmode"	"97"	[$WIN32]
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
 		"wide"			"75"
-		"wide_minmode"	"37"
+		"wide_minmode"	"75"
 		"tall"			"75"
-		"tall_minmode"	"37"
+		"tall_minmode"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
@@ -39,16 +39,16 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"133"		[$WIN32]
-		"xpos_minmode"	"-5"	[$WIN32]
+		"xpos_minmode"	"133"	[$WIN32]
 		"ypos"			"140"	[$WIN32]
-		"ypos_minmode"	"r44"	[$WIN32]
+		"ypos_minmode"	"122"	[$WIN32]
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"
-		"wide_minmode"	"27"
+		"wide_minmode"	"55"
 		"tall"			"55"
-		"tall_minmode"	"27"
+		"tall_minmode"	"55"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
@@ -67,7 +67,7 @@
 		"tall"		"55"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"		"..\hud\disguised_icon"
+		"image"		"../hud/class_spy_outline"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusClassImageBG"
@@ -75,7 +75,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"r0"		[$WIN32]
-		"xpos_minmode"	"-10"		[$WIN32]
+		"xpos_minmode"	"r-10"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
 		"ypos_minmode"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]

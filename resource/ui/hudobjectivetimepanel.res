@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"r16"
+		"xpos"			"16"
 		"xpos_minmode"	"35"
 		"xpos_hidef"	"108"
 		"xpos_lodef"	"108"
@@ -63,8 +63,8 @@
 		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"18"
-		"ypos_minmode"	"24"
+		"ypos"			"20"
+		"ypos_minmode"	"25"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
 		"zpos"			"5"
@@ -81,7 +81,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ROMANS12"
+		"font"			"AtlanRegular12"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
@@ -90,9 +90,9 @@
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
 			"ypos"					"21"
-			"ypos_minmode"			"21"
+			"ypos_minmode"			"22"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
+			"font"					"AtlanRegular12"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
 		}
@@ -101,7 +101,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"r16"	[$WIN32]
+		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"ypos_hidef"	"-100"	//off-screen
@@ -124,11 +124,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"16"
+		"xpos"			"14"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
-		"ypos_minmode"	"24"
+		"ypos"			"20"
+		"ypos_minmode"	"25"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
 		"zpos"			"5"
@@ -145,7 +145,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"AtlanRegular12"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
@@ -154,9 +154,9 @@
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
 			"ypos"					"21"
-			"ypos_minmode"			"21"
+			"ypos_minmode"			"22"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
+			"font"					"AtlanRegular12"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
 		}
@@ -191,7 +191,7 @@
 		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"20"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -229,7 +229,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"r16"	[$WIN32]
 		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"ypos_hidef"	"-100"	//off-screen
@@ -252,11 +252,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"16"
+		"xpos"			"14"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
-		"ypos_minmode"	"24"
+		"ypos"			"20"
+		"ypos_minmode"	"25"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
 		"zpos"			"5"
@@ -273,8 +273,8 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_minmode"	"ClockSubTextSuddenDeath"
+		"font"			"AtlanRegular12"
+		"font_minmode"	"AtlanRegular12"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
@@ -283,9 +283,9 @@
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
 			"ypos"					"21"
-			"ypos_minmode"			"21"
+			"ypos_minmode"			"22"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
+			"font"					"AtlanRegular12"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
 		}
@@ -294,7 +294,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"r16"	[$WIN32]
 		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"ypos_hidef"	"-100"	//off-screen

@@ -1,4 +1,6 @@
-"Resource/UI/HudItemEffectMeter.res"
+#base "huditemeffectmeter.res"
+
+"Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
 	HudItemEffectMeter
 	{
@@ -8,7 +10,7 @@
 		"xpos"			"r242"	[$WIN32]
 		"xpos_minmode"	"r242"	[$WIN32]
 		"ypos"			"r165"	[$WIN32]
-		"ypos_minmode"	"r165"	[$WIN32]
+		"ypos_minmode"	"r135"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"200"
@@ -82,6 +84,5 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"TurfGreenTransparent"
 	}					
 }

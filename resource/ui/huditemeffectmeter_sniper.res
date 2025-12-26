@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Spy.res"
+"Resource/UI/HudItemEffectMeter_Sniper.res"
 {
 	HudItemEffectMeter
 	{
@@ -123,3 +123,4 @@
 		"fgcolor"				"TimerBrown"
 	}
 }
+

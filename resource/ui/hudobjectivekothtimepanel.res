@@ -49,16 +49,16 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"MingLiU-ExtB16"
-			"font_minmode"	"HudFontSmall"
+			"font"			"AtlanBold18"
+			"font_minmode"	"AtlanBold12"
 			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
+			"fgcolor_override"	"TimerBrown"
 			"xpos"			"57"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
 			"ypos"			"-7"
-			"ypos_minmode"	"6"
+			"ypos_minmode"	"5"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
 			"zpos"			"3"
@@ -83,11 +83,80 @@
 				"wide"			"35"
 				"wide_minmode"	"35"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
+				"font_minmode"	"AtlanBold12"
 				"font_lodef"	"HudFontSmall"
+				"fgcolor_override"	"TimerBrown"
 			
 			}
-		}	
+		}
+
+		"TimerBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimerBG"
+			"xpos"			"23"
+			"xpos_minmode"	"17"
+			"ypos"			"11"
+			"ypos_minmode"	"0"
+			"zpos"			"3"
+			"wide"			"45"
+			"wide_minmode"	"30"
+			"tall"			"25"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"255 255 255 255"
+		}
+		
+		"TimerBGEX"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimerBGEX"
+			"xpos"			"23"
+			"xpos_minmode"	"17"
+			"ypos"			"11"
+			"ypos_minmode"	"0"
+			"zpos"			"4"
+			"wide"			"45"
+			"wide_minmode"	"30"
+			"tall"			"10"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"121 215 39 255"
+		}
+		
+		"TimerBGEXEXEX"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimerBGEXEX"
+			"xpos"			"23"
+			"xpos_minmode"	"16"
+			"ypos"			"11"
+			"ypos_minmode"	"0"
+			"zpos"			"2"
+			"wide"			"45"
+			"wide_minmode"	"32"
+			"tall"			"26"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"121 215 39 255"
+		}
+		
+		"TimerBGBLUE"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimerBGBLUE"
+			"xpos"			"23"
+			"xpos_minmode"	"17"
+			"ypos"			"11"
+			"ypos_minmode"	"1"
+			"zpos"			"5"
+			"wide"			"45"
+			"wide_minmode"	"30"
+			"tall"			"9"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"CINGRAYblue"
+		}
 	}
 
 	"RedTimer"
@@ -131,16 +200,16 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"MingLiU-ExtB16"
-			"font_minmode"	"HudFontSmall"
+			"font"			"AtlanBold18"
+			"font_minmode"	"AtlanBold12"
 			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
+			"fgcolor_override"	"TimerBrown"
 			"xpos"			"9"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
 			"ypos"			"-7"
-			"ypos_minmode"	"6"
+			"ypos_minmode"	"5"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
 			"zpos"			"3"
@@ -165,19 +234,88 @@
 				"wide_minmode"	"35"
 				"tall"			"10"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
+				"font_minmode"	"AtlanBold12"
 				"font_lodef"	"HudFontSmall"
+				"fgcolor_override"	"TimerBrown"
 			
 			}
-		}	
+		}
+		
+		"TimerBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimerBG"
+			"xpos"			"23"
+			"xpos_minmode"	"53"
+			"ypos"			"11"
+			"ypos_minmode"	"0"
+			"zpos"			"3"
+			"wide"			"45"
+			"wide_minmode"	"30"
+			"tall"			"25"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"255 255 255 255"
+		}
+		
+		"TimerBGEX"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimerBGEX"
+			"xpos"			"23"
+			"xpos_minmode"	"53"
+			"ypos"			"11"
+			"ypos_minmode"	"0"
+			"zpos"			"4"
+			"wide"			"45"
+			"wide_minmode"	"30"
+			"tall"			"10"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"121 215 39 255"
+		}
+		
+		"TimerBGEXEXEX"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimerBGEXEX"
+			"xpos"			"23"
+			"xpos_minmode"	"52"
+			"ypos"			"11"
+			"ypos_minmode"	"0"
+			"zpos"			"2"
+			"wide"			"45"
+			"wide_minmode"	"32"
+			"tall"			"26"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"121 215 39 255"
+		}
+		
+		"TimerBGRED"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimerBGRED"
+			"xpos"			"23"
+			"xpos_minmode"	"53"
+			"ypos"			"11"
+			"ypos_minmode"	"1"
+			"zpos"			"5"
+			"wide"			"45"
+			"wide_minmode"	"30"
+			"tall"			"9"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"CINGRAYred"
+		}
 	}
 	
 	"ActiveTimerBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
-		"xpos"				"r10"
-		"ypos"				"r9"
+		"xpos"				"0"
+		"ypos"				"9"
 		"ypos_minmode"		"-4"
 		"zpos"				"1"
 		"wide"				"78"

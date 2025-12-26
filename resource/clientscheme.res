@@ -208,6 +208,19 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+		
+		//custom colors
+		"StayGold"			"254 188 6 255"
+		"StayGoldShadow"	"244 122 0 255"
+		"BakushinPink"		"254 179 183 255"
+		"BakushinPinkShadow"	"250 123 152 255"
+		"CINGRAYred"		"221 33 82 255"
+		"CINGRAYblue"		"0 90 172 255"
+		"TurfGreenTransparent"	"102 255 0 50"
+		"TurfGreen"			"101 194 77 255"
+		"TurfGreenShadow"	"78 138 33 255"
+		"MediChargeColor"		"93 241 238 255"
+		"TimerBrown"			"139 107 65 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -3171,6 +3184,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		AtlanRegular12
+		{
+			"1"
+			{
+				"name"		"Atlan Regular"
+				"tall"		"12"
+				"antialias"	"1"
+			}
+		}
 	}
 
 	//custom fonts
@@ -6002,6 +6025,11 @@ Scheme
 		{
 			"font" "resource/fonts/AtlanBold.ttf"
 			"name" "Atlan Bold"
+		}
+		"20"
+		{
+			"font"	"resource/fonts/AtlanRegular.ttf"
+			"name"	"Atlan Regular"
 		}
 	}
 }

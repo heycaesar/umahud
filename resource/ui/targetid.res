@@ -76,8 +76,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"HudFontSmall"
-		"font_minmode"	"TFFontLarge"
+		"font"			"AtlanRegular12"
+		"font_minmode"	"AtlanRegular12"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
 		"ypos"			"5"
@@ -98,12 +98,12 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"FontStoreOriginalPrice"
+		"font"			"DefaultVerySmall"
 		"font_minmode"	"DefaultVerySmall"
-		"xpos"			"8"
+		"xpos"			"7"
 		"xpos_minmode"	"30"
-		"ypos"			"17"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
+		"ypos"			"14.5"	[$WIN32]
+		"ypos_minmode"	"14"	[$WIN32]
 		"ypos"			"22"	[$X360]
 		"ypos_hidef"		"25"	[$X360]
 		"zpos"			"1"
@@ -143,11 +143,11 @@
 		"fieldName"		"AmmoIcon"
 		"xpos"			"40"
 		"xpos_minmode"	"38"
-		"ypos"			"20"
-		"ypos_minmode"	"16"
+		"ypos"			"18"
+		"ypos_minmode"	"18"
 		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
+		"wide"			"7"
+		"tall"			"7"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_class_heavy"
@@ -160,11 +160,11 @@
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"10"
 		"xpos_minmode"	"30"
-		"ypos"			"20"
+		"ypos"			"18"
 		"ypos_minmode"	"16"
 		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
+		"wide"			"7"
+		"tall"			"7"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"

@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"210"	[$WIN32]
 		"ypos"			"142"	[$WIN32]
-		"xpos_minmode"	"68"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"xpos_minmode"	"210"	[$WIN32]
+		"ypos_minmode"	"132"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -39,7 +39,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
+		"xpos"					"r25"
 		"ypos"					"27"
 		"zpos"					"2"
 		"wide"					"41"
@@ -82,12 +82,12 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
+		"xpos"					"20"
 		"ypos_minmode"			"18"
 		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"20"	
+		"tall"					"40"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -96,7 +96,30 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
-		"font_minmode"			"HudFontSmall"
+		"font"					"AtlanBold24"
+		"font_minmode"			"AtlanRegular12"
+	}
+	
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"21"
+		"ypos_minmode"			"18"
+		"ypos"					"10"
+		"zpos"					"1"
+		"wide"					"40"
+		"tall"					"40"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"north"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"AtlanBold24"
+		"font_minmode"			"AtlanRegular12"
+		"fgcolor"				"TimerBrown"
 	}
 }

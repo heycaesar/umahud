@@ -6,9 +6,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"130"		[$WIN32]
-		"xpos_minmode"	"-5"		[$WIN32]
+		"xpos_minmode"	"146"		[$WIN32]
 		"ypos"			"75"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
+		"ypos_minmode"	"75"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
@@ -39,7 +39,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"r73"
-		"xpos_minmode"	"58"
+		"xpos_minmode"	"r58"
 		"ypos"			"33"
 		"zpos"			"3"
 		"wide"			"55"
@@ -54,7 +54,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"r73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
+		"xpos_minmode"	"r65"	[$WIN32]
 		"xpos"			"83"	[$X360]
 		"ypos"			"33"	[$WIN32]
 		"ypos_minmode"	"40"	[$WIN32]
@@ -89,6 +89,26 @@
 		"font"			"AtlanBold24"
 		"fgcolor"		"101 194 77 255"
 	}
+	
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"77"
+		"xpos_minmode"	"62"
+		"ypos"			"42"	[$WIN32]
+		"ypos"			"55"	[$X360]
+		"zpos"			"5"
+		"wide"			"80"
+		"tall"			"38"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"AtlanBold24"
+		"fgcolor"		"TurfGreenShadow"
+	}
+	
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"

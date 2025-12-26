@@ -17,9 +17,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"175"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
+		"xpos_minmode"	"175"	[$WIN32]
 		"ypos"	"350"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
+		"ypos_minmode"	"350"	[$WIN32]
 		"xpos"	"r131"	[$X360]
 		"ypos"	"r77"	[$X360]
 		"wide"	"94"
@@ -77,9 +77,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
+		"xpos_minmode"	"0"	[$WIN32]
 		"ypos"			"r300"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
+		"ypos_minmode"	"r300"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
 		"wide"			"f0"
@@ -92,9 +92,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos_minmode"	"402"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"ypos_minmode"	"r95"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
@@ -215,9 +215,9 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"76"
-		"xpos_minmode"			"61"
+		"xpos_minmode"			"146"
 		"ypos"					"r152"
-		"ypos_minmode"			"r134"
+		"ypos_minmode"			"65"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -260,7 +260,7 @@
 		"xpos"		"c-126"
 		"ypos"		"285"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"28"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
@@ -295,9 +295,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"
+		"ypos"		"320"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"28"
 		"tall_minmode"	 	"28"
 		"priority"	"35"
 
@@ -1052,15 +1052,15 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
-	}	
+		"xpos"			"0"	[$WIN32]
+		"xpos_minmode"	"0"	[$WIN32]
+		"ypos"			"r300"	[$WIN32]
+		"ypos_minmode"	"r300"	[$WIN32]
+		"xpos"			"r174"	[$X360]
+		"ypos"			"r90"	[$X360]
+		"wide"			"f0"
+		"tall"			"f0"
+	}
 
 	HudTeamGoal
 	{

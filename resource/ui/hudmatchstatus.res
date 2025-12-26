@@ -198,8 +198,8 @@
 	"RoundCounter"
 	{
 		"fieldName"		"RoundCounter"
-		"xpos"			"r-100"
-		"ypos"			"-2"
+		"xpos"			"cs-0.5"
+		"ypos"			"r-2"
 		"zpos"			"1"		
 		"wide"			"300"
 		"tall"			"100"
@@ -211,7 +211,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BGFrame"
-		"xpos"				"r-100"
+		"xpos"				"cs-0.5"
 		"ypos"				"-5"
 		"zpos"				"0"
 		"wide"				"365"
@@ -223,7 +223,7 @@
 
 		if_match
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 
@@ -280,7 +280,7 @@
 		"xpos"				"c-55"
 		"xpos_hidef"		"c-150"
 		"xpos_lodef"		"c-150"
-		"ypos"				"-7"	[$WIN32]
+		"ypos"				"0"	[$WIN32]
 		"ypos_minmode"		"-14"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"2"
@@ -317,21 +317,21 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"MingLiU-ExtB16"
-			"font_minmode"	"HudFontSmall"
+			"font"			"HudFontMediumSmall"
+			"font_minmode"	"AtlanBold12"
 			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
-			"xpos"			"30"
+			"fgcolor"		"TimerBrown"
+			"xpos"			"23"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"1"
+			"ypos"			"11"
 			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
 			"zpos"			"3"
 			"wide"			"45"
-			"wide_minmode"	"30"
+			"wide_minmode"	"31"
 			"wide_lodef"	"50"
 			"tall"			"31"
 			"visible"		"1"
@@ -345,19 +345,105 @@
 
 				"xpos"			"cs-0.5"
 				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"tall"			"10"
+				"ypos_minmode"	"11"
+				"tall"			"13"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
+				"font_minmode"	"AtlanBold12"
 				"font_lodef"	"HudFontSmall"
 			}
-		}	
+		}
+
+		"TimerBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimerBG"
+			"xpos"			"23"
+			"xpos_minmode"	"39"
+			"ypos"			"11"
+			"ypos_minmode"	"0"
+			"zpos"			"3"
+			"wide"			"45"
+			"wide_minmode"	"55"
+			"tall"			"25"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"255 255 255 255"
+		}
+		
+		"TimerBGEX"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimerBGEX"
+			"xpos"			"23"
+			"xpos_minmode"	"39"
+			"ypos"			"11"
+			"ypos_minmode"	"0"
+			"zpos"			"4"
+			"wide"			"45"
+			"wide_minmode"	"55"
+			"tall"			"10"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"121 215 39 255"
+		}
+		
+		"TimerBGEXEXEX"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimerBGEXEX"
+			"xpos"			"23"
+			"xpos_minmode"	"38"
+			"ypos"			"11"
+			"ypos_minmode"	"0"
+			"zpos"			"2"
+			"wide"			"45"
+			"wide_minmode"	"57"
+			"tall"			"26"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"121 215 39 255"
+		}
+		
+		"TimerBGBLUE"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimerBGBLUE"
+			"xpos"			"23"
+			"xpos_minmode"	"39"
+			"ypos"			"11"
+			"ypos_minmode"	"1"
+			"zpos"			"5"
+			"wide"			"45"
+			"wide_minmode"	"28"
+			"tall"			"9"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"CINGRAYblue"
+		}
+		
+		"TimerBGRED"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimerBGRED"
+			"xpos"			"23"
+			"xpos_minmode"	"67"
+			"ypos"			"11"
+			"ypos_minmode"	"1"
+			"zpos"			"5"
+			"wide"			"45"
+			"wide_minmode"	"27.5"
+			"tall"			"9"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"CINGRAYred"
+		}
 	}
+	
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
-		"xpos"			"r-10"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"f0"
