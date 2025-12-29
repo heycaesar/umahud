@@ -215,7 +215,9 @@ Scheme
 		"BakushinPink"		"254 179 183 255"
 		"BakushinPinkShadow"	"250 123 152 255"
 		"CINGRAYred"		"221 33 82 255"
+		"CINGRAYredShadow"	"109 0 32 255"
 		"CINGRAYblue"		"0 90 172 255"
+		"CINGRAYblueShadow"	"1 44 102 255"
 		"TurfGreenTransparent"	"102 255 0 50"
 		"TurfGreen"			"101 194 77 255"
 		"TurfGreenShadow"	"78 138 33 255"
@@ -3045,75 +3047,7 @@ Scheme
 			}
 		}
 		
-		MingLiU-ExtB12
-		{
-			"1"
-			{
-				"name"		"MingLiU-ExtB"
-				"tall"		"12"
-				"antialias" "1"
-			}
-		}
-		
-		MingLiU-ExtB16
-		{
-			"1"
-			{
-				"name"		"MingLiU-ExtB"
-				"tall"		"16"
-				"antialias" "1"
-			}
-		}
-		
-		MingLiU-ExtB24
-		{
-			"1"
-			{
-				"name"		"MingLiU-ExtB"
-				"tall"		"24"
-				"antialias" "1"
-			}
-		}
-		
-		MingLiU-ExtB32
-		{
-			"1"
-			{
-				"name"		"MingLiU-ExtB"
-				"tall"		"32"
-				"antialias" "1"
-			}
-		}
-		
-		MingLiU-ExtB36
-		{
-			"1"
-			{
-				"name"		"MingLiU-ExtB"
-				"tall"		"36"
-				"antialias" "1"
-			}
-		}
-		
-		MingLiU-ExtB42
-		{
-			"1"
-			{
-				"name"		"MingLiU-ExtB"
-				"tall"		"42"
-				"antialias" "1"
-			}
-		}
-		
-		MingLiU-ExtB48
-		{
-			"1"
-			{
-				"name"		"MingLiU-ExtB"
-				"tall"		"48"
-				"antialias" "1"
-			}
-		}
+		//custom fonts
 		
 		AtlanBold12
 		{
@@ -3194,10 +3128,18 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		AtlanRegular8
+		{
+			"1"
+			{
+				"name"		"Atlan Regular"
+				"tall"		"8"
+				"antialias"	"1"
+			}
+		}
 	}
 
-	//custom fonts
-	
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -6018,8 +5960,8 @@ Scheme
 		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 		"18"
 		{
-			"font" "resource/fonts/MingLiU-ExtB.ttf"
-			"name" "MingLiU-ExtB"
+			"font" "resource/fonts/AtlanSemiBold.ttf"
+			"name" "Atlan Semi Bold"
 		}
 		"19"
 		{

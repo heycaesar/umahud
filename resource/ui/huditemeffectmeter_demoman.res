@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"212"	[$WIN32]
 		"ypos"			"r155"	[$WIN32]
-		"xpos_minmode"	"215"	[$WIN32]
-		"ypos_minmode"	"r150"	[$WIN32]
+		"xpos_minmode"	"265"	[$WIN32]
+		"ypos_minmode"	"r200"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
@@ -123,3 +123,4 @@
 		"fgcolor"				"TimerBrown"
 	}
 }
+

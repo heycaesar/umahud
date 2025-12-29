@@ -18,6 +18,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"CINGRAYred"
+		"fgcolor_override"	"White"
+		"bgcolor_override"	"TurfGreenTransparent"
 	}					
 }

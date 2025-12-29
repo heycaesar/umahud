@@ -339,7 +339,7 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
-		"font_minmode"	"ClockSubTextSuddenDeath"
+		"font_minmode"	"AtlanBold12"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
@@ -348,11 +348,12 @@
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
 			"ypos"					"21"
-			"ypos_minmode"			"21"
+			"ypos_minmode"			"23"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
+			"font"					"AtlanBold12"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
+			"fgcolor_override"		"TimerBrown"
 		}
 	}	
 	"ServerTimeLimitLabelBG"

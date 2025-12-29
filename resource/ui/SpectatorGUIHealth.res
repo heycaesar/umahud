@@ -69,7 +69,7 @@
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
 		"font"			"AtlanBold12"
-		"fgcolor_override" "0 0 126 255"
+		"fgcolor_override" "TurfGreen"
 	}
 	"PlayerStatusHealthValueTargetIDshadow"
 	{
@@ -85,6 +85,6 @@
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
 		"font"			"AtlanBold12"
-		"fgcolor_override" "0 0 0 255"
+		"fgcolor_override" "TurfGreenShadow"
 	}
 }

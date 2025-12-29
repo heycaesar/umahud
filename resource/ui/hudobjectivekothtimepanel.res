@@ -153,7 +153,7 @@
 			"wide"			"45"
 			"wide_minmode"	"30"
 			"tall"			"9"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"fillcolor"		"CINGRAYblue"
 		}
@@ -304,7 +304,7 @@
 			"wide"			"45"
 			"wide_minmode"	"30"
 			"tall"			"9"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"fillcolor"		"CINGRAYred"
 		}

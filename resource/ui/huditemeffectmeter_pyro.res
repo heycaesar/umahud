@@ -10,7 +10,7 @@
 		"x_offset"		"40"
 		"xpos"			"r200"	[$WIN32]
 		"ypos"			"r150"	[$WIN32]
-		"xpos_minmode"	"r242"	[$WIN32]
+		"xpos_minmode"	"r274"	[$WIN32]
 		//"xpos_minmode"	"372"	[$WIN32]		//alt
 		"ypos_minmode"	"r150"	[$WIN32]
 		//"ypos_minmode"	"r105"	[$WIN32]		//alt
@@ -65,7 +65,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"AtlanRegular8"
 	}
 
 	"ItemEffectMeter"

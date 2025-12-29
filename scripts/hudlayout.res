@@ -17,12 +17,12 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"175"	[$WIN32]
-		"xpos_minmode"	"175"	[$WIN32]
+		"xpos_minmode"	"c92"	[$WIN32]
 		"ypos"	"350"	[$WIN32]
-		"ypos_minmode"	"350"	[$WIN32]
+		"ypos_minmode"	"300"	[$WIN32]
 		"xpos"	"r131"	[$X360]
 		"ypos"	"r77"	[$X360]
-		"wide"	"94"
+		"wide"	"200"
 		"tall"	"45"
 	}
 	
@@ -94,7 +94,7 @@
 		"xpos"			"r80"	[$WIN32]
 		"xpos_minmode"	"402"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r95"	[$WIN32]
+		"ypos_minmode"	"r231"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
@@ -199,9 +199,9 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
+		"xpos"					"r473"	[$WIN32]
 		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
+		"ypos_minmode"			"130"	[$WIN32]
 		"xpos"					"r194"	[$X360]
 		"ypos"					"r174"	[$X360]
 		"wide"					"116"
@@ -514,17 +514,17 @@
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"		"AtlanBold12"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"BaseBackgroundColor"	"46 43 42 50"		[$WIN32]
+		"LocalBackgroundColor"	"245 229 196 50"	[$WIN32]
+		"BaseBackgroundColor"	"32 32 32 50"		[$X360]
+		"LocalBackgroundColor"	"0 0 0 50"		[$X360]
 	}
 
 	HudVehicle

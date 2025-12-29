@@ -352,90 +352,21 @@
 				"font_lodef"	"HudFontSmall"
 			}
 		}
-
-		"TimerBG"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"TimerBG"
-			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"ypos"			"11"
-			"ypos_minmode"	"0"
-			"zpos"			"3"
-			"wide"			"45"
-			"wide_minmode"	"55"
-			"tall"			"25"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"255 255 255 255"
-		}
 		
-		"TimerBGEX"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"TimerBGEX"
-			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"ypos"			"11"
-			"ypos_minmode"	"0"
-			"zpos"			"4"
-			"wide"			"45"
-			"wide_minmode"	"55"
-			"tall"			"10"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"121 215 39 255"
-		}
+		//custom timer background
 		
-		"TimerBGEXEXEX"
+		"TimerBg"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"TimerBGEXEX"
-			"xpos"			"23"
-			"xpos_minmode"	"38"
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"TimerBg"
+			"xpos"			"39"
 			"ypos"			"11"
-			"ypos_minmode"	"0"
-			"zpos"			"2"
-			"wide"			"45"
-			"wide_minmode"	"57"
-			"tall"			"26"
+			"zpos"			"1"		
+			"wide"			"55"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"121 215 39 255"
-		}
-		
-		"TimerBGBLUE"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"TimerBGBLUE"
-			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"ypos"			"11"
-			"ypos_minmode"	"1"
-			"zpos"			"5"
-			"wide"			"45"
-			"wide_minmode"	"28"
-			"tall"			"9"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"CINGRAYblue"
-		}
-		
-		"TimerBGRED"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"TimerBGRED"
-			"xpos"			"23"
-			"xpos_minmode"	"67"
-			"ypos"			"11"
-			"ypos_minmode"	"1"
-			"zpos"			"5"
-			"wide"			"45"
-			"wide_minmode"	"27.5"
-			"tall"			"9"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"CINGRAYred"
+			"image"			"../hud/Timer_Bg"
 		}
 	}
 	
@@ -444,7 +375,7 @@
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"8"		//0
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"75"
@@ -472,10 +403,10 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
-			"color_portrait_bg_red_dead"	"79 54 52 255"
-			"color_portrait_bg_blue_dead"	"44 49 51 255"
+			"color_portrait_bg_red"	"CINGRAYred"
+			"color_portrait_bg_blue"	"CINGRAYblue"
+			"color_portrait_bg_red_dead"	"CINGRAYredShadow"
+			"color_portrait_bg_blue_dead"	"CINGRAYblueShadow"
 			"color_bar_health_high"	"84 191 58 255"
 			"color_bar_health_med"	"191 183 58 255"
 			"percentage_health_med"	"0.6"

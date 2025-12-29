@@ -93,7 +93,7 @@
 		"use_proportional_insets_minmode"	"1"
 		"textinsetx_minmode"				"5"
 		"font"			"HudFontMediumSmallSecondary"
-		"font_minmode"			"HudFontSmall"
+		"font_minmode"			"AtlanRegular12"
 	}
 	"BuyBackLabel"
 	{

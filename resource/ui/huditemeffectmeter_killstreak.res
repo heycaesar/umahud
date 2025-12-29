@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"210"	[$WIN32]
 		"ypos"			"142"	[$WIN32]
-		"xpos_minmode"	"210"	[$WIN32]
-		"ypos_minmode"	"132"	[$WIN32]
+		"xpos_minmode"	"215"	[$WIN32]
+		"ypos_minmode"	"137"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
