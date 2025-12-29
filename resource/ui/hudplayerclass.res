@@ -7,10 +7,10 @@
 		"fieldName"		"HudPlayerClass"
 		"xpos"			"0"
 		"ypos"			"0"
-		"ypos_minmode"	"309"
+		"ypos_minmode"	"0"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"480"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"		
 	}
@@ -19,9 +19,9 @@
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"165"	[$WIN32]
-		"xpos_minmode"	"80"	[$WIN32]		//165
+		"xpos_minmode"	"80"	[$WIN32]
 		"ypos"			"115"	[$WIN32]
-		"ypos_minmode"	"48"	[$WIN32]		//97
+		"ypos_minmode"	"r124"	[$WIN32]
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
@@ -41,7 +41,7 @@
 		"xpos"			"133"		[$WIN32]
 		"xpos_minmode"	"18"	[$WIN32]		//133
 		"ypos"			"140"	[$WIN32]
-		"ypos_minmode"	"79"	[$WIN32]		//122
+		"ypos_minmode"	"r90"	[$WIN32]		//122
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
@@ -60,8 +60,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos"		"c-25"
-		"ypos"		"c25"
+		"xpos"		"c-27"
+		"ypos"		"283"
 		"zpos"		"7"
 		"wide"		"55"
 		"tall"		"55"
