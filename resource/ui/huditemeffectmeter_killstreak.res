@@ -7,9 +7,9 @@
 		"enabled"		"1"
 		"xpos"			"210"	[$WIN32]
 		"ypos"			"142"	[$WIN32]
-		"xpos_minmode"	"215"	[$WIN32]
-		"ypos_minmode"	"137"	[$WIN32]
-		"wide"			"100"
+		"xpos_minmode"	"-50"	[$WIN32]
+		"ypos_minmode"	"380"	[$WIN32]
+		"wide"			"f0"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -19,20 +19,16 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"r12"
+		"xpos"			"215"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"76"
-		"tall"			"44"
+		"wide"			"100"
+		"tall"			"30"
 		"visible"		"1"
-		"visible_minmode"	"0"
+		"visible_minmode"	"1"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"image"			"../hud/UH_killstreak_bg"
+		"scaleImage"	"1"				
 	}
 	
 	"ItemEffectMeterLabel"
@@ -46,7 +42,7 @@
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_KillStreak"
@@ -82,12 +78,12 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"20"
-		"ypos_minmode"			"18"
+		"xpos"					"200"		//193
+		"ypos_minmode"			"-10"
 		"ypos"					"10"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"40"	
+		"wide"					"60"
+		"tall"					"50"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -97,19 +93,20 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"AtlanBold24"
-		"font_minmode"			"AtlanRegular12"
+		"font_minmode"			"AtlanBold48"
+		"fgcolor_override"		"StayGold"
 	}
 	
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"21"
-		"ypos_minmode"			"18"
+		"xpos"					"201"		//194
+		"ypos_minmode"			"-9"
 		"ypos"					"10"
 		"zpos"					"1"
-		"wide"					"40"
-		"tall"					"40"	
+		"wide"					"60"
+		"tall"					"50"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -119,7 +116,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"AtlanBold24"
-		"font_minmode"			"AtlanRegular12"
-		"fgcolor"				"TimerBrown"
+		"font_minmode"			"AtlanBold48"
+		"fgcolor"				"StayGoldShadow"
 	}
 }

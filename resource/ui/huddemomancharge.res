@@ -6,10 +6,10 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"10"
-		"xpos_minmode"	"0"
+		"xpos_minmode"	"13"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"53"
+		"wide"			"24"
 		"tall"			"2"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -18,7 +18,5 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"White"
-		"bgcolor_override"	"TurfGreenTransparent"
 	}					
 }

@@ -8,7 +8,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r242"	[$WIN32]
-		"xpos_minmode"	"r274"	[$WIN32]
+		"xpos_minmode"	"r205"	[$WIN32]
 		"ypos"			"r165"	[$WIN32]
 		"ypos_minmode"	"r135"	[$WIN32]
 		"xpos"			"r194"	[$X360]

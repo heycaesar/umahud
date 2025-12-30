@@ -17,9 +17,7 @@
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -99,7 +97,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"DefaultVerySmall"
-		"font_minmode"	"DefaultVerySmall"
+		"font_minmode"	"AtlanRegular8"
 		"xpos"			"7"
 		"xpos_minmode"	"30"
 		"ypos"			"14.5"	[$WIN32]

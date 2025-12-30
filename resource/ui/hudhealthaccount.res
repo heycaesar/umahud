@@ -3,6 +3,8 @@
 	"CHealthAccountPanel"
 	{
 		"fieldName"				"CHealthAccountPanel"
+		"ypos"					"240"
+		"xpos"					"165"
 		"delta_item_x"			"90"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"0"

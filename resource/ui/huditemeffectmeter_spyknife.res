@@ -8,7 +8,7 @@
 		"x_offset"		"40"
 		"xpos"			"r200"	[$WIN32]
 		"ypos"			"r150"	[$WIN32]
-		"xpos_minmode"	"r274"	[$WIN32]
+		"xpos_minmode"	"r205"	[$WIN32]
 		"ypos_minmode"	"r150"	[$WIN32]
 		"x_offset_minmode"		"0"	[$WIN32]
 		"xpos"			"r194"	[$X360]

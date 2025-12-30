@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"212"	[$WIN32]
 		"ypos"			"r155"	[$WIN32]
-		"xpos_minmode"	"265"	[$WIN32]
-		"ypos_minmode"	"r200"	[$WIN32]
+		"xpos_minmode"	"r318"	[$WIN32]
+		"ypos_minmode"	"r187"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
@@ -21,19 +21,19 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"r12"
-		"ypos"			"0"
+		"xpos"			"12"
+		"ypos"			"5"
 		"zpos"			"0"
-		"wide"			"76"
-		"tall"			"44"
+		"wide"			"15"
+		"tall"			"15"
 		"visible"		"1"
-		"visible_minmode"	"0"
+		"visible_minmode"	"1"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
+		"image"			"../hud/UH_circle_panel"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
+		"teambg_2"		"../hud/UH_circle_panel"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
+		"teambg_3"		"../hud/UH_circle_panel"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
@@ -84,8 +84,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"10"
+		"xpos"					"-3"
+		"ypos"					"6"
 		"zpos"					"2"
 		"wide"					"44"
 		"tall"					"44"	
@@ -98,15 +98,16 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"AtlanBold24"
-		"font_minmode"			"AtlanBold18"
+		"font_minmode"			"AtlanBold12"
+		"fgcolor_override"		"TimerBrown"
 	}
 	
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"26"
-		"ypos"					"10"
+		"xpos"					"-2"
+		"ypos"					"6"
 		"zpos"					"2"
 		"wide"					"44"
 		"tall"					"44"	
@@ -119,7 +120,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"AtlanBold24"
-		"font_minmode"			"AtlanBold18"
-		"fgcolor"				"TimerBrown"
+		"font_minmode"			"AtlanBold12"
+		"fgcolor"				"98 69 39 255"
 	}
 }

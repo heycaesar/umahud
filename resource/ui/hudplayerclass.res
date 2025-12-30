@@ -19,7 +19,7 @@
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"165"	[$WIN32]
-		"xpos_minmode"	"80"	[$WIN32]
+		"xpos_minmode"	"50"	[$WIN32]
 		"ypos"			"115"	[$WIN32]
 		"ypos_minmode"	"r124"	[$WIN32]
 		"xpos"			"57"	[$X360]
@@ -39,7 +39,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"133"		[$WIN32]
-		"xpos_minmode"	"18"	[$WIN32]		//133
+		"xpos_minmode"	"-10"	[$WIN32]		//133
 		"ypos"			"140"	[$WIN32]
 		"ypos_minmode"	"r90"	[$WIN32]		//122
 		"xpos"			"35"	[$X360]

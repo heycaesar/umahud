@@ -199,11 +199,11 @@
 	{
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
-		"ypos"			"r-2"
+		"ypos"			"-2"
 		"zpos"			"1"		
 		"wide"			"300"
 		"tall"			"100"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 	}	
 
@@ -354,20 +354,6 @@
 		}
 		
 		//custom timer background
-		
-		"TimerBg"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"TimerBg"
-			"xpos"			"39"
-			"ypos"			"11"
-			"zpos"			"1"		
-			"wide"			"55"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/Timer_Bg"
-		}
 	}
 	
 	"TeamStatus"
